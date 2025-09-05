@@ -10,6 +10,7 @@ inputs.forEach(inp=>{
 inp.addEventListener("change",function(e){
       console.log("hh chl rha hai ",e.target.value)
       crd.textContent +=" "+ e.target.value
+      crd.style.color="white"
   })
 })
   
