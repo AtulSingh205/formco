@@ -2,7 +2,7 @@ let f = document.querySelector(".main")
 let inputs = document.querySelectorAll("input")
 let crd = document.querySelector(".card")
 f.addEventListener("click",function(e){
-    // console.log(e)
+    console.log(e)
   e.preventDefault()
 
 })
