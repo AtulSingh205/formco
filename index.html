@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+            background-color: aqua;
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+        }
+        .main{
+            height: 15vh;
+            width: 20vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+        
+            
+        }
+        .card{
+            background-color: blueviolet;
+            height: 22vh;
+            width: 15vw;
+
+        }
+        .container{
+            display: flex;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conntainer">
+         <div class="main">
+        <form ">
+              <input  type="text" placeholder="name" />
+              <input type="text" placeholder="lastname" />
+              <input type="password" placeholder="password" />
+              <input type="submit"/>
+        </form>
+    </div>
+    <div class="card"></div>
+    </div>
+   
+    <script src="index.js"></script>
+</body>
+</html>
