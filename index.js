@@ -19,9 +19,9 @@ h2.textContent=(inputs[2].value)
 let p=document.createElement("p")
 p.textContent=(inputs[3].value)
 
-profile.appendChild(img)
-card.appendChild(profile)
-card.appendChild(h1)
+profile.appendChild(img);
+card.appendChild(profile);
+card.appendChild(h1);
 card.appendChild(h2)
 card.appendChild(p)
 
