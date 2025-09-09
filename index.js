@@ -22,8 +22,8 @@ p.textContent=(inputs[3].value)
 profile.appendChild(img);
 card.appendChild(profile);
 card.appendChild(h1);
-card.appendChild(h2)
-card.appendChild(p)
+card.appendChild(h2);
+card.appendChild(p);
 
 conainer.appendChild(card)
 })
